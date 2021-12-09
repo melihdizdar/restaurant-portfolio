@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+.home .sliderText {
+  position: absolute;
+  bottom: 20%;
+  left: 20%;
+  margin-left: 0%;
+  width: 50%;
+  border-radius: 10px;
+  background: none;
+  color: #25292D;
+  padding: 10px;
+  font-size: 6rem;
+  text-align: left;
+  opacity: 1;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.home .sliderText div {
+  margin-top: -8%;
+}
+
+.home .sliderText .buttonStage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10%;
+}
+
+.home .sliderText .buttonStage button {
+  width: 30%;
+  height: 50px;
+  font-size: 0.75rem;
+  font-weight: normal;
+  color: white;
+  background: #F2B80E;
+  border: #F2B80E;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.home .sliderText .buttonStage button:hover {
+  background: #25292D;
+  color: white;
+}
+
+.home .carousel .slider img {
+  width: 100%;
+  height: 700px;
+  border-radius: 0;
+}
+
+.home .carousel {
+  width: 100%;
+}
+
+.home .leftarrow {
+  position: absolute;
+  z-index: 2;
+  top: 45%;
+  width: 30;
+  height: 30;
+  cursor: pointer;
+  left: 15px;
+  border: none;
+  background: none;
+  font-size: 2rem;
+  color: #F2AA1F;
+}
+
+.home .leftarrow:hover {
+  opacity: 0.8;
+}
+
+.home .rightarrow {
+  position: absolute;
+  z-index: 2;
+  top: 45%;
+  width: 30;
+  height: 30;
+  cursor: pointer;
+  right: 15px;
+  border: none;
+  background: none;
+  font-size: 2rem;
+  color: #F2AA1F;
+}
+
+.home .rightarrow:hover {
+  opacity: 0.8;
+}
+
+.home .indicators {
+  background: none;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  margin: 0 5px;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  border-radius: 50%;
+  border: 3px solid #F2AA1F;
+}
+
+.home .indicators:hover {
+  background: #F2AA1F;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  margin: 0 5px;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  border-radius: 50%;
+  border: 3px solid #F2AA1F;
+}
+
+.home .indicators-active {
+  background: #F2AA1F;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  margin: 0 5px;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  border-radius: 50%;
+  border: 3px solid #F2AA1F;
+}
+
+@media screen and (min-width: 1366px) {
+  .home .sliderText {
+    bottom: 25%;
+  }
+  .home .sliderText div {
+    margin-top: -5%;
+  }
+  .home .sliderText .buttonStage {
+    margin-top: 5%;
+  }
+  .home .sliderText .buttonStage button {
+    width: 30%;
+  }
+  .home .carousel .slider img {
+    height: 900px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .home .sliderText {
+    bottom: 15%;
+    left: 15%;
+  }
+  .home .sliderText div {
+    margin-top: -10%;
+  }
+  .home .sliderText .buttonStage {
+    margin-top: 10%;
+  }
+  .home .sliderText .buttonStage button {
+    width: 35%;
+  }
+  .home .carousel .slider img {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home .sliderText {
+    bottom: 7%;
+    left: 15%;
+  }
+  .home .sliderText div {
+    margin-top: -12%;
+  }
+  .home .sliderText .buttonStage {
+    margin-top: 10%;
+  }
+  .home .sliderText .buttonStage button {
+    width: 35%;
+  }
+  .home .carousel .slider img {
+    height: 500px;
+  }
+  .home .leftarrow {
+    top: 35%;
+    font-size: 5rem;
+    left: -5px;
+  }
+  .home .rightarrow {
+    top: 35%;
+    font-size: 5rem;
+    right: -5px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .home .sliderText {
+    bottom: 4%;
+    left: 15%;
+  }
+  .home .sliderText div {
+    margin-top: -10%;
+  }
+  .home .sliderText .buttonStage {
+    margin-top: 10%;
+  }
+  .home .sliderText .buttonStage button {
+    width: 35%;
+  }
+  .home .carousel .slider img {
+    height: 500px;
+  }
+}
+/*# sourceMappingURL=home.css.map */

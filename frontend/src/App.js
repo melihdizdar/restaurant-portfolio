@@ -7,13 +7,11 @@ function App() {
   return (
     <div>
         <BrowserRouter>
-          <Navbar/>
-          <main>
+            <Navbar/>
             <Routes>
               <Route path="/" element={<HomeScreen/>}/>
             </Routes>
-          </main>
-          <Footer/>
+            <Footer/>
         </BrowserRouter>
     </div>
   );
