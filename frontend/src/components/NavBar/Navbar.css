@@ -21,7 +21,7 @@
   }
   
   .nav-logo {
-    color: black;
+    color: #0E0E0E;
     align-items: center;
     margin-left: 20px;
     cursor: pointer;
@@ -38,7 +38,7 @@
   }
   
   .nav-links {
-    color: black;
+    color: #0E0E0E;
     text-decoration: none;
     padding: 0.5rem 0.4rem;
     height: 100%;
@@ -48,7 +48,7 @@
   }
 
   .nav-links:hover {
-    color: black;
+    color: #0E0E0E;
   }
   .fa-code {
     margin-left: 1rem;
@@ -60,11 +60,11 @@
     border-bottom: 4px solid transparent;
   }
   .nav-item:hover{
-    border-bottom: 3px solid #F2B80E;
+    border-bottom: 3px solid #DF5200;
   }
   .nav-item:hover:after {
     width: 100%;
-    background: #F2B80E;
+    background: #DF5200;
   }
   .nav-icon {
     display: none;
@@ -77,11 +77,11 @@
   
   @media screen and (max-width: 600px) {
     .fa-bars {
-      color: black;
+      color: #0E0E0E;
       font-size: 3rem;
     }
     .fa-times {
-      color: black;
+      color: #0E0E0E;
       font-size: 3rem;
     }
     .nav-menu {
@@ -96,7 +96,7 @@
     }
   
     .nav-menu.active {
-      background: #0E3045;
+      background: #0E0E0E;
       left: 0;
       opacity: 1;
       transition: all 0.3s ease;

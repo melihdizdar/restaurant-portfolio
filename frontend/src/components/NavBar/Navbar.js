@@ -11,7 +11,7 @@ function NavBar() {
       <nav className="navbar">
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
-            <img src="https://ld-wp.template-help.com/rockthemes/21997/wp-content/uploads/2018/06/logo.png" className="logo" alt="logo"></img>
+            <img src="https://i.hizliresim.com/p0u8f64.png" className="logo" alt="logo"></img>
           </NavLink>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
