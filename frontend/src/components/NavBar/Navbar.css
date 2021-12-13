@@ -29,6 +29,9 @@
     font-size: 2rem;
     flex-grow: 1;
   }
+  .nav-logo:hover{
+    opacity: 0.8;
+  }
   
   .nav-menu {
     display: flex;

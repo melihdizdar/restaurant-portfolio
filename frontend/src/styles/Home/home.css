@@ -158,7 +158,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin-left: 5%;
   margin-right: 5%;
 }
 
@@ -247,7 +246,6 @@
       -ms-flex-direction: row;
           flex-direction: row;
   margin-left: 5%;
-  margin-right: 5%;
 }
 
 .home .mainMenuStage2 .left {
@@ -333,7 +331,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 5%;
   margin-bottom: 5%;
 }
 

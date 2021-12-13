@@ -10,7 +10,7 @@
     font-family: 'Roboto', sans-serif;
     $topcolor: #25292D;
     $bottomcolor: #212428;
-    $linkhovercolor: #F2AA1F;
+    $linkhovercolor: #FF9E2D;
     .footerTop{
         width: 100%;
         display: flex;
@@ -50,11 +50,11 @@
                 li{
                     font-size: 1.5rem;
                     margin: 1rem;
-                    color: grey;
-                    .fab{
+                    a{
                         cursor: pointer;
+                        color: grey;
                     }
-                    .fab:hover{
+                    a:hover{
                         opacity: 0.75;
                     }
                 }
@@ -88,6 +88,11 @@
             align-items: center;
             img{
                 margin: 20px;
+                height: 50px;
+                width: 50px;
+            }
+            img:hover{
+                opacity: 0.8;
             }
             small{
                 color: grey;

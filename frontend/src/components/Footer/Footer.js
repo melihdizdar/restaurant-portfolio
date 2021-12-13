@@ -8,16 +8,16 @@ export default function Footer() {
             <div className="footerTop">
                 <div className="left">
                     <h3>ADDRESS</h3>
-                    <p>The Company Name Inc.<br/>8901 Marmora Road,<br/>Glasgow, D04 89GR.</p>
+                    <p>The Company Name Inc.<br/>8901 Company Road,<br/>Company City, D04 89GR.</p>
                 </div>
                 <div className="center">
                     <h3>FOLLOW US</h3>
                     <ul>
-                        <li><i class="fab fa-facebook-f"></i></li>
-                        <li><i class="fab fa-twitter"></i></li>
-                        <li><i class="fab fa-google-plus-g"></i></li>
-                        <li><i class="fab fa-linkedin-in"></i></li>
-                        <li><i class="fab fa-pinterest"></i></li>
+                        <li><a href="https://tr-tr.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://twitter.com/home?lang=tr"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://accounts.google.com/signin/v2/identifier?service=accountsettings&continue=https%3A%2F%2Fmyaccount.google.com%3Futm_source%3Daccount-marketing-page%26utm_medium%3Dgo-to-account-button&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://tr.pinterest.com/login/"><i class="fab fa-pinterest"></i></a></li>
                     </ul>
                 </div>
                 <div className="right">
@@ -27,8 +27,8 @@ export default function Footer() {
             </div>
             <div className="footerBottom">
                 <div className="left">
-                    <img src="https://ld-wp.template-help.com/rockthemes/21997/wp-content/uploads/2018/06/logo.png" alt="logo"/>
-                    <small>Copyright © 2019. All Rights Reserved</small>
+                    <Link to="/"><img src="https://i.hizliresim.com/p0u8f64.png" alt="logo"/></Link>
+                    <small>Copyright © 2021. All Rights Reserved</small>
                 </div>
                 <div className="right">
                     <ul>
