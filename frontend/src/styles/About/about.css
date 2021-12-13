@@ -1,0 +1,468 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.about .headerStage {
+  margin-left: 15%;
+  margin-right: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.about .headerStage .headerText {
+  font-size: 3rem;
+  font-family: 'Marck Script', cursive;
+  font-weight: 500;
+  color: #0E0E0E;
+}
+
+.about .headerStage .line {
+  width: 20%;
+  border: 1px solid #DF5200;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.about .informationStage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-family: 'Roboto', sans-serif;
+}
+
+.about .informationStage .left {
+  -webkit-box-flex: 40%;
+      -ms-flex: 40%;
+          flex: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about .informationStage .left img {
+  width: 100%;
+  height: auto;
+}
+
+.about .informationStage .right {
+  -webkit-box-flex: 60%;
+      -ms-flex: 60%;
+          flex: 60%;
+  margin-right: 5%;
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about .informationStage .right .text p {
+  color: #7B8081;
+  font-size: 1.2rem;
+}
+
+.about .informationStage .right .text p:nth-child(2) {
+  margin-bottom: 4%;
+}
+
+.about .someFactsStage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about .someFactsStage .headerStage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.about .someFactsStage .headerStage .headerText {
+  font-size: 3rem;
+  font-family: 'Marck Script', cursive;
+  font-weight: 500;
+  color: #0E0E0E;
+}
+
+.about .someFactsStage .cardStage {
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.about .someFactsStage .cardStage .card {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border: none;
+}
+
+.about .someFactsStage .cardStage .card .left {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about .someFactsStage .cardStage .card .left .fas {
+  font-size: 2.5rem;
+}
+
+.about .someFactsStage .cardStage .card .right {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.about .someFactsStage .cardStage .card .right h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 1.9rem;
+}
+
+.about .someFactsStage .cardStage .card .right small {
+  color: #DF5200;
+  font-weight: bold;
+}
+
+.about .ourStuffStage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about .ourStuffStage .headerStage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.about .ourStuffStage .headerStage .headerText {
+  font-size: 3rem;
+  font-family: 'Marck Script', cursive;
+  font-weight: 500;
+  color: #0E0E0E;
+}
+
+.about .ourStuffStage .ourStuffCardStage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.about .ourStuffStage .ourStuffCardStage .ourStuffCard {
+  width: 25%;
+  margin: 2%;
+}
+
+.about .ourStuffStage .ourStuffCardStage .ourStuffCard img {
+  width: 100%;
+  height: auto;
+}
+
+.about .ourStuffStage .ourStuffCardStage .ourStuffCard .textStage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 10%;
+}
+
+.about .ourStuffStage .ourStuffCardStage .ourStuffCard .textStage h4 {
+  color: #0E0E0E;
+}
+
+.about .ourStuffStage .ourStuffCardStage .ourStuffCard .textStage small {
+  color: #7B7E81;
+}
+
+.about .ourStuffStage .largeImage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5%;
+}
+
+.about .ourStuffStage .largeImage img {
+  width: 100%;
+  height: 700px;
+}
+
+@media screen and (max-width: 1920px) {
+  .about .informationStage .left img {
+    width: 60%;
+    height: 600px;
+  }
+  .about .someFactsStage .headerStage .headerContainer .headerFront {
+    margin-top: -5%;
+  }
+  .about .someFactsStage .cardStage {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .about .someFactsStage .cardStage .card .left {
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about .someFactsStage .cardStage .card .left .fas {
+    font-size: 3rem;
+  }
+  .about .someFactsStage .cardStage .card .right {
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+  }
+  .about .ourStuffStage .headerStage .headerContainer .headerFront {
+    margin-top: -5%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .about .informationStage .left img {
+    width: 100%;
+    height: auto;
+  }
+  .about .informationStage .right {
+    -webkit-box-flex: 60%;
+        -ms-flex: 60%;
+            flex: 60%;
+    margin-right: 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .about .informationStage .right .text {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .about .someFactsStage .headerStage .headerContainer .headerFront {
+    margin-top: -8%;
+  }
+  .about .ourStuffStage .headerStage .headerContainer .headerFront {
+    margin-top: -7%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .about .informationStage .left img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about .informationStage {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .about .informationStage .left {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 5%;
+  }
+  .about .informationStage .left img {
+    width: 50%;
+  }
+  .about .informationStage .right {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    margin-right: 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+  }
+  .about .informationStage .right .text1 {
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+  }
+  .about .someFactsStage .headerStage .headerContainer .headerFront {
+    margin-top: -10%;
+  }
+  .about .someFactsStage .cardStage {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about .someFactsStage .cardStage .card {
+    width: 50%;
+    margin-bottom: 4%;
+  }
+  .about .ourStuffStage .headerStage .headerContainer .headerFront {
+    margin-top: -10%;
+  }
+  .about .ourStuffStage .ourStuffCardStage {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .about .ourStuffStage .ourStuffCardStage .ourStuffCard {
+    width: 45%;
+  }
+}
+/*# sourceMappingURL=about.css.map */
