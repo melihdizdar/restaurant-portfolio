@@ -22,7 +22,7 @@ export default function Footer() {
                 </div>
                 <div className="right">
                     <h3>CONTACT US</h3>
-                    <p>+1 800 603 6035<br/>+1 800 603 6035<br/>mail@demolink.org</p>
+                    <p>+1 800 603 6035<br/>+1 800 603 6035<br/><a href="mailto:mail@demolink.org">mail@demolink.org</a></p>
                 </div>
             </div>
             <div className="footerBottom">

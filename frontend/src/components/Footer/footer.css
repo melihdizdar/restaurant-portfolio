@@ -140,6 +140,16 @@
   color: grey;
 }
 
+.footer .footerTop .right p a {
+  color: grey;
+  text-decoration: none;
+}
+
+.footer .footerTop .right p a:hover {
+  color: #FF9E2D;
+  opacity: 0.9;
+}
+
 .footer .footerBottom {
   width: 100%;
   display: -webkit-box;

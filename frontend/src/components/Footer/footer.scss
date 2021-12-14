@@ -72,6 +72,14 @@
             }
             p{
                 color: grey;
+                a{
+                    color: grey;
+                    text-decoration: none;
+                }
+                a:hover{
+                    color: $linkhovercolor;
+                    opacity: 0.9;
+                }
             }
         }
     }
