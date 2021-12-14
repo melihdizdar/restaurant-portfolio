@@ -1,0 +1,19 @@
+.menu{
+    $renk_1: #DF5200;
+    $renk_2: #FF9E2D;
+    $renk_3: #FEDC18;
+    $renk_4: #3E414A;
+    $renk_5: #0E0E0E;
+    .headerStage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+        .headerText{
+            font-size: 3rem;
+            font-family: 'Marck Script', cursive;
+            font-weight: 500;
+            color: $renk_5;
+        }
+    }
+}
