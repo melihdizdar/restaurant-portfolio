@@ -5,10 +5,11 @@ import HomeScreen from "./screens/HomeScreen";
 import AboutScreen from "./screens/AboutScreen";
 import MenuScreen from "./screens/MenuScreen";
 import GalleryScreen from "./screens/GalleryScreen";
+import ContactScreen from "./screens/ContactScreen";
 
 function App() {
   return (
-    <div>
+    <div className="contact">
         <BrowserRouter>
             <Navbar/>
               <Routes>
@@ -16,6 +17,7 @@ function App() {
                 <Route path="/about" element={<AboutScreen/>}/>
                 <Route path="/menu" element={<MenuScreen/>}/>
                 <Route path="/gallery" element={<GalleryScreen/>}/>
+                <Route path="/contact" element={<ContactScreen/>}/>
               </Routes>
             <Footer/>
         </BrowserRouter>

@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.contact{
+    $renk_1: #DF5200;
+    $renk_2: #FF9E2D;
+    $renk_3: #FEDC18;
+    $renk_4: #3E414A;
+    $renk_5: #0E0E0E;
+    .headerStage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        flex-direction: column;
+        .headerText{
+            font-size: 3rem;
+            font-family: 'Marck Script', cursive;
+            font-weight: 500;
+            color: $renk_5;
+        }
+        .line{
+            border-bottom: 2px solid $renk_1;
+            width: 15%;
+            margin-top: 1%;
+            margin-bottom: 2%;
+        }
+        p{
+            color: $renk_4;
+            font-family: 'Roboto', sans-serif;
+            margin-left: 10%;
+            margin-right: 10%;
+            text-align: center;
+        }
+    }
+    .cardStage{
+        display: flex;
+        .card{
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            margin: 1% auto;
+            border: none;
+            background: none;
+            i{
+                margin-top: 4%;
+                margin-bottom: 4%;
+            }
+            .fas,.far{
+                color: $renk_4;
+                font-size: 1.8rem;
+            }
+            h3{
+                font-size: 1.2rem;
+            }
+            p{
+                text-align: center;
+            }
+            h4{
+                font-size: 1rem;
+                color: $renk_5;
+                text-decoration: none;
+                a{
+                    font-size: 1rem;
+                    color: $renk_5;
+                    text-decoration: none;
+                }
+                a:hover{
+                    opacity: 0.9;
+                }
+            }
+        }
+    }
+    .contactStage{
+        display: flex;
+        flex-direction: column;
+        .headerStage{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            flex-direction: column;
+            .headerText{
+                font-size: 3rem;
+                font-family: 'Marck Script', cursive;
+                font-weight: 500;
+                color: $renk_5;
+            }
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            .top{
+                display: flex;
+                .left{
+                    flex: 30%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 2%;
+                    margin-right: 2%;
+                    height: 200px;
+                    input{
+                        border: 0.2px solid #d6d6d6;
+                        width: 100%;
+                        height: 40px;
+                    }
+                    input:nth-child(1),input:nth-child(2){
+                        margin-bottom: 5%;
+                    }
+                }
+                .right{
+                    flex: 70%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 2%;
+                    height: 200px;
+                    textarea{
+                        border: 0.2px solid #d6d6d6;
+                        width: 100%;
+                        resize: none;
+                    }
+                }
+            }
+            .bottom{
+                .buttonStage{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    button{
+                        background-color: $renk_1;
+                        color: white;
+                        border-radius: 5px;
+                        height: 50px;
+                        width: 15%;
+                        border: none;
+                    }
+                    button:hover{
+                        background-color: $renk_4;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:1920px){
+    .right{
+        textarea{
+            height: 170px;
+        }
+    }
+}
+@media screen and (max-width:1440px){
+    .right{
+        textarea{
+            height: 160px;
+        }
+    }
+}
+@media screen and (max-width:1440px){
+    .right{
+        textarea{
+            height: 160px;
+        }
+    }
+}
+@media screen and (max-width:1024px){
+    .right{
+        textarea{
+            height: 150px;
+        }
+    }
+}
