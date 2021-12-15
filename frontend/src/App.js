@@ -11,15 +11,21 @@ function App() {
   return (
     <div className="contact">
         <BrowserRouter>
-            <Navbar/>
+            <header>
+              <Navbar/>
+            </header>
+            <main>
               <Routes>
-                <Route path="/" element={<HomeScreen/>}/>
-                <Route path="/about" element={<AboutScreen/>}/>
-                <Route path="/menu" element={<MenuScreen/>}/>
-                <Route path="/gallery" element={<GalleryScreen/>}/>
-                <Route path="/contact" element={<ContactScreen/>}/>
-              </Routes>
-            <Footer/>
+                  <Route path="/" element={<HomeScreen/>}/>
+                  <Route path="/about" element={<AboutScreen/>}/>
+                  <Route path="/menu" element={<MenuScreen/>}/>
+                  <Route path="/gallery" element={<GalleryScreen/>}/>
+                  <Route path="/contact" element={<ContactScreen/>}/>
+                </Routes>
+            </main>
+            <footer>
+              <Footer/>
+            </footer>
         </BrowserRouter>
     </div>
   );
