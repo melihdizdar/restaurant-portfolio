@@ -7,11 +7,11 @@ export default function Footer() {
         <div className="footer">
             <div className="footerTop">
                 <div className="left">
-                    <h3>ADDRESS</h3>
-                    <p>The Company Name Inc.<br/>8901 Company Road,<br/>Company City, D04 89GR.</p>
+                    <h3>ADRES</h3>
+                    <p>Şirket İsmi ve Ünvanı<br/>8901 Cadde Adı,<br/>Şirket Şehir, D04 89GR.</p>
                 </div>
                 <div className="center">
-                    <h3>FOLLOW US</h3>
+                    <h3>TAKİP EDİN</h3>
                     <ul>
                         <li><a href="https://tr-tr.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
                         <li><a href="https://twitter.com/home?lang=tr"><i class="fab fa-twitter"></i></a></li>
@@ -21,22 +21,22 @@ export default function Footer() {
                     </ul>
                 </div>
                 <div className="right">
-                    <h3>CONTACT US</h3>
+                    <h3>İLETİŞİM</h3>
                     <p>+1 800 603 6035<br/>+1 800 603 6035<br/><a href="mailto:mail@demolink.org">mail@demolink.org</a></p>
                 </div>
             </div>
             <div className="footerBottom">
                 <div className="left">
                     <Link to="/"><img src="https://i.hizliresim.com/p0u8f64.png" alt="logo"/></Link>
-                    <small>Copyright © 2021. All Rights Reserved</small>
+                    <small>Copyright © 2021. Bütün Hakları Saklıdır.</small>
                 </div>
                 <div className="right">
                     <ul>
-                        <li><Link to="/">HOME</Link></li>
-                        <li><Link to="/about">ABOUT</Link></li>
-                        <li><Link to="/menu">MENU</Link></li>
-                        <li><Link to="/gallery">GALLERY</Link></li>
-                        <li><Link to="/contact">CONTACT</Link></li>
+                        <li><Link to="/">ANASAYFA</Link></li>
+                        <li><Link to="/about">HAKKIMIZDA</Link></li>
+                        <li><Link to="/menu">MENÜ</Link></li>
+                        <li><Link to="/gallery">GALERİ</Link></li>
+                        <li><Link to="/contact">İLETİŞİM</Link></li>
                     </ul>
                 </div>
             </div>

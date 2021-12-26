@@ -5,7 +5,7 @@ import menu from '../data/menu';
 import Menu from '../components/Menu/Menu';
 import Button from '../components/Menu/Button';
 
-const allButtons = ['ALL', ...new Set(menu.map(item => item.category))]
+const allButtons = ['TÜMÜ', ...new Set(menu.map(item => item.category))]
 
 export default function MenuScreen() {
     const [menuItem, setMenuItems] = useState(menu);
@@ -13,7 +13,7 @@ export default function MenuScreen() {
 
     const filter = (button) => {
 
-        if(button === 'ALL'){
+        if(button === 'TÜMÜ'){
             setMenuItems(menu);
             return;
         }
@@ -24,7 +24,7 @@ export default function MenuScreen() {
     return (
         <div className="menu">
             <div className="headerStage">
-                <div className="headerText">Our Menu</div>
+                <div className="headerText">Menülerimiz</div>
             </div>
             <div>
                 <MainLayout>

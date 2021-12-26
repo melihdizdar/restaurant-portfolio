@@ -22,7 +22,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                HOME
+                ANASAYFA
               </NavLink>
             </li>
             <li className="nav-item">
@@ -33,7 +33,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                ABOUT
+                HAKKIMIZDA
               </NavLink>
             </li>
             <li className="nav-item">
@@ -44,7 +44,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                MENU
+                MENÜ
               </NavLink>
             </li>
             <li className="nav-item">
@@ -55,7 +55,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                GALLERY
+                GALERİ
               </NavLink>
             </li>
             <li className="nav-item">
@@ -66,7 +66,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                CONTACT
+                İLETİŞİM
               </NavLink>
             </li>
           </ul>

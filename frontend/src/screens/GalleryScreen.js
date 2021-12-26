@@ -43,7 +43,7 @@ export default function GalleryScreen() {
     return (
         <div className="gallery">
             <div className="headerStage">
-                <div className="headerText">Gallery</div>
+                <div className="headerText">Galeri</div>
             </div>
             <div className="photoswipeGallery">
                 <Gallery photos={photos} direction={"column"}/>
