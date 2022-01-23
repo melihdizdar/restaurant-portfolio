@@ -5,10 +5,8 @@ Terminal Commands
 
 install node modules
 -------------
-cd frontend
-npm install
+cd frontend -> npm install
 
 open project
 -------------
-cd frontend
-npm start
+cd frontend -> npm start
